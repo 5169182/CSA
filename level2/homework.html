@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level2</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+ }
+ img{
+  display: block;
+ }
+ .grid-container {
+  width: 600px;
+  height: 600px;
+  /* margin: 40px auto; */
+  /* 触发网格布局 */
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 300px 200px;
+}
+
+ .grid-container div img {
+  width: 100%;
+  height: 100%;
+  }
+ .item7 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  }
+  .item9 {   
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 7;}
+
+  .item13 {   
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;} 
+
+  .item14 {   
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;} 
+
+ .item15 {   
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 7;} 
+
+</style>
+</head>
+<body>
+    <h4>dog</h4>
+<div class="grid-container">
+    <div class="item1"><img src="images/dog.jpg"/></div>
+    <div class="item2"><img src="images/dog.jpg"/></div>
+    <div class="item3"><img src="images/dog.jpg"/></div>
+    <div class="item4"><img src="images/dog.jpg"/></div>
+    <div class="item5"><img src="images/dog.jpg"/></div>
+    <div class="item6"><img src="images/dog.jpg"/></div>
+    <div class="item7"><img src="images/dog.jpg"/></div>
+    <div class="item9"><img src="images/dog.jpg"/></div>
+    <div class="item13"><img src="images/dog.jpg"/></div>
+    <div class="item14"><img src="images/dog.jpg"/></div>
+    <div class="item15"><img src="images/dog.jpg"/></div>
+  </div>
+</body>
+</html>
